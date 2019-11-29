@@ -1,0 +1,31 @@
+#dlist{
+    position: relative;
+    left:1050px;
+
+}
+li{
+    display:inline;
+}
+#list{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+#logo{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:30%;
+}
+#search{
+    margin:auto;
+    position:relative;
+    left:450px;
+    top:45px;
+}
+#buttons{
+    margin:auto;
+    position:relative;
+    left:450px;
+    top:45px;
+}
