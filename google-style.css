@@ -1,31 +1,38 @@
-#dlist{
-    position: relative;
-    left:1050px;
-
-}
-li{
-    display:inline;
-}
-#list{
+-webkit-appearance:none;
+.top{
     list-style-type:none;
     margin:0;
     padding:0;
+    position: relative;
+    right:1px;
 }
-#logo{
+#right{
+    display:inline;
+}
+#left{
+    display: inline;
+}
+.logo{
     display:block;
     margin-left:auto;
     margin-right:auto;
     width:30%;
 }
 #search{
+    text-align:center;
     margin:auto;
-    position:relative;
-    left:450px;
-    top:45px;
 }
 #buttons{
+    text-align:center;
     margin:auto;
-    position:relative;
-    left:450px;
-    top:45px;
+}
+.foot{
+    list-style-type:none;
+    margin:0;
+    padding:10;
+    float:left;
+}
+.t-c{
+    float:right;
+    top:400px; right:20px;
 }
