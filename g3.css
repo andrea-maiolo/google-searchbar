@@ -1,0 +1,52 @@
+html{
+    -webkit-appearance: none;
+}
+.header{
+    display:block;
+    margin-top:0px;
+}
+.leftnav{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    float:left;
+
+}
+li{
+    display: inline;
+    text-align: center;
+    font-family:'Garamond', 'Futura', 'Times New Roman', 'serif sans'  ;
+    font-size:14px;
+}
+.rightnav{
+    list-style-type: none;
+    margin: 0;
+    float:right;
+    padding: 0;
+    overflow: hidden;
+}
+.leftbot{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    float:left;
+}
+.rightbot{
+    float: right;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    text-decoration: underline;
+}

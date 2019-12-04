@@ -1,10 +1,10 @@
--webkit-appearance:none;
+webkit{
+appearance:none;}
 .top{
     list-style-type:none;
     margin:0;
     padding:0;
-    position: relative;
-    right:1px;
+    margin-left:1100px;
 }
 #right{
     display:inline;
@@ -13,10 +13,10 @@
     display: inline;
 }
 .logo{
+    padding-top:109px;
     display:block;
     margin-left:auto;
     margin-right:auto;
-    width:30%;
 }
 #search{
     text-align:center;
@@ -27,9 +27,13 @@
     margin:auto;
 }
 .foot{
+    display:block;
+    margin-bottom:10px;
+}
+.bottom{
     list-style-type:none;
     margin:0;
-    padding:10;
+    padding:0;
     float:left;
 }
 .t-c{
