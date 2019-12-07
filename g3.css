@@ -18,6 +18,7 @@ li{
     text-align: center;
     font-family:'Garamond', 'Futura', 'Times New Roman', 'serif sans'  ;
     font-size:14px;
+    color:black;
 }
 .rightnav{
     list-style-type: none;
@@ -49,4 +50,9 @@ a:hover{
 }
 a:active{
     text-decoration: underline;
+}
+.logo{
+    margin: auto;
+    padding: auto;
+
 }
