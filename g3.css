@@ -1,5 +1,5 @@
-html{
-    -webkit-appearance: none;
+webkit{
+    appearance: none;
 }
 .header{
     display:block;
@@ -52,7 +52,62 @@ a:active{
     text-decoration: underline;
 }
 .logo{
-    margin: auto;
-    padding: auto;
-
+    padding-top:109px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
 }
+.searchbar{
+    text-align: center;
+}
+.google-button{
+    margin:auto;
+    padding:auto;
+}
+.feelgood-button{
+    margin:auto;
+    padding:auto;
+}
+
+/*webkit{
+appearance:none;}
+.top{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    margin-left:1100px;
+}
+#right{
+    display:inline;
+}
+#left{
+    display: inline;
+}
+.logo{
+    padding-top:109px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+#search{
+    text-align:center;
+    margin:auto;
+}
+#buttons{
+    text-align:center;
+    margin:auto;
+}
+.foot{
+    display:block;
+    margin-bottom:10px;
+}
+.bottom{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    float:left;
+}
+.t-c{
+    float:right;
+    top:400px; right:20px;
+}*/
