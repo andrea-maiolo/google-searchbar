@@ -1,3 +1,7 @@
+body{
+    background-color:rgb(228, 219, 218);
+}
+
 .header{
     display:block;
     margin-top:0px;
@@ -59,18 +63,23 @@ a:active{
 .searchbar{
     text-align: center;
     align-content: center;
+    display:block;
+    margin:auto;
+    padding:auto;
 }
 .google-button{
-    margin:auto;
-    padding:auto;
-    align-content: center;
+    /*margin:auto;*/
+    padding-right:auto;
+    display: block;
+    margin-right:auto;
 }
 .feelgood-button{
-    margin:auto;
-    padding:auto;
-    align-content: center;
+    /*margin:auto;*/
+    padding-left:auto;
+    display:block;
+    margin-left:auto;
 }
-how to center search bar and buttons? through text align or box and padding align?
+
 
 
 /*webkit{
