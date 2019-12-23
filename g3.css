@@ -58,25 +58,18 @@ a:active{
     text-decoration: underline;
 }
 .logo{
-   /* padding-top:109px;
-    padding:21px,0px,0px;
-    display:block;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    display: block;
     margin-left:auto;
-    margin-right:auto;*/
-        border-top-width: 0px;
-        border-right-width: 0px;
-        border-bottom-width: 0px;
-        border-left-width: 0px;
-        border-top-style: solid;
-        border-right-style: solid;
-        border-bottom-style: solid;
-        border-left-style: solid;
-        display: block;
-        margin-left:auto;
-        margin-right: auto;
-        padding-top:109px;
-    }
-
+    margin-right: auto;
+    padding-top:109px;
 }
 .searchbar{
     text-align: center;
