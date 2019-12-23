@@ -17,8 +17,8 @@ body{
 li{
     display: inline;
     text-align: center;
-    font-family:'Garamond', 'Futura', 'Times New Roman', 'serif sans'  ;
-    font-size:14px;
+    font-family:'arial', 'serif sans'  ;
+    font-size:13px;
     text-decoration-color:black;
 }
 .rightnav{
@@ -56,9 +56,11 @@ a:active{
 }
 .logo{
     padding-top:109px;
+    padding:21px,0px,0px;
     display:block;
     margin-left:auto;
     margin-right:auto;
+
 }
 .searchbar{
     text-align: center;
