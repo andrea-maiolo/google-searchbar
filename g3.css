@@ -1,5 +1,8 @@
+::-webkit-appearance:none;
+
+
 body{
-    background-color:rgb(228, 219, 218);
+    background-color:rgb(243, 241, 241);
 }
 
 .header{
@@ -67,17 +70,20 @@ a:active{
     margin:auto;
     padding:auto;
 }
+/*div{
+    div property is for keeping the buttons on the same line
+    margin:auto;
+    padding:auto;
+}*/
 .google-button{
-    /*margin:auto;*/
-    padding-right:auto;
+    padding:0;/*padding property invalid, must find a way to center*/
     display: block;
-    margin-right:auto;
+    margin:10px 50px 20px 0;
 }
 .feelgood-button{
-    /*margin:auto;*/
-    padding-left:auto;
+    padding:0;/*pading property invalidy must find a way to center with padding*/
     display:block;
-    margin-left:auto;
+    margin:10px 50px 20px 0;
 }
 
 
