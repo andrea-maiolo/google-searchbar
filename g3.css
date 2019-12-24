@@ -74,7 +74,11 @@ a:active{
 .searchbar{
     text-align: center;
     align-content: center;
-    display:block;
+    display:flex;
+    border-radius: 8px;
+    border:1px;
+    width:582px;
+    height:44px;
     margin:auto;
     padding:auto;
 }
