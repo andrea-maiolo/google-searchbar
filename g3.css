@@ -77,10 +77,12 @@ a:active{
     display:flex;
     border-radius: 8px;
     border:1px;
+    border-style: solid;
+    border-color:rgb(204, 201, 196);
     width:582px;
     height:44px;
     margin:auto;
-    padding:auto;
+    background-color:rgb(234,231,225);
 }
 /*div{
     div property is for keeping the buttons on the same line
