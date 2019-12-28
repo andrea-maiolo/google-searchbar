@@ -1,5 +1,12 @@
-webkit{
- appearance:none;   
+html{
+    -webkit-appearance:none;   
+}
+body, html {
+    font-size: small;}
+
+body {
+    background: #fff;
+    color: #222;
 }
 .header{
     display:block;
@@ -153,23 +160,65 @@ a:active{
     width:24px;
     height:24px;
     
-}
+}/*
 .buttons_div{
-    margin:auto;
-    padding:0;
+    font-family:arial,sans-serif;
+    display:block;
+}
+#leftbutton{
+    position:relative;
+    top:10px; left:150px;
+    color:#5F6368;
+    cursor:pointer;
+    font-family:arial,sans-serif;
+    font-size: 14px;
+    margin: auto;
+    min-width: 54px;
+    padding: 0;
+    text-align: center;
+}
+#rightbutton{
+    position: relative;
+    top:10px; left:326px;
+    color:#5F6368;
+    cursor:pointer;
+    font-family:arial,sans-serif;
+    font-size: 14px;
+    margin: auto;
+    min-width: 54px;
+    padding: 0;
+    text-align: center;
 }
 .google-button{
-    position: relative;
-    top:10px; left:150px;
-    margin:10px 400px 10px 400px;
     display:-webkit-box;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #686764;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
 }
 .feelgood-button{
-    position: relative;
-    top:10px; right:150px;
-    margin:10px 400px 10px 400px;
     display:-webkit-box;
-}
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #72716f;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}*/
 .country{
     bottom:0;
 }
