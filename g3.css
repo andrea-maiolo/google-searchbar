@@ -12,12 +12,14 @@ body {
     display:block;
     margin-top:0px;
 }
-.leftnav{
+.topNavLeft{
     list-style-type: none;
     margin:0;
     padding:0;
     overflow: hidden;
     float:left;
+    position:relative;
+    top:20px;
 
 }
 .about{
@@ -35,7 +37,7 @@ li{
     font-size:13px;
     text-decoration-color:black;
 }
-.rightnav{
+.topNavRight{
     list-style-type: none;
     margin: 0;
     float:right;
@@ -58,13 +60,13 @@ li{
     border-radius:100%;
     margin-top:5px;
 }
-.leftbot{
+.bottomNavLeft{
     list-style-type:none;
     margin: 0;
     padding: 0;
     float:left;
 }
-.rightbot{
+.bottomNavRight{
     float: right;
     padding: 0;
     margin: 0;
@@ -84,6 +86,14 @@ a:hover{
 a:active{
     text-decoration: underline;
 }
+#logo_div{
+    position:relative;
+    top:40px;
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    width:50%
+}
 .logo{
     border-top-width: 0px;
     border-right-width: 0px;
@@ -98,10 +108,11 @@ a:active{
     margin-right: auto;
     padding-top:109px;
 }
-/*.search_div{
-    margin-top:-2px;
-    padding-left:6px;
-}*/
+.search_div{
+    position:relative;
+    top:20px;
+    right:0px;
+}
 .searchbar{
     padding:0px 0px 0px 0px;
     text-align: center;
@@ -160,13 +171,52 @@ a:active{
     width:24px;
     height:24px;
     
-}/*
+}
+.buttons_div{
+    position:relative;
+    top:40px;
+    right:0px;
+}
+#center{
+    position:absolute;
+    left:500px; top:10px;
+}
+#leftbutton{
+    position:relative;
+    /*left:500px;*/ 
+}
+#rightbutton{
+    position: relative;
+    top: -20px; left:115px;
+}
+.google-button{
+    padding:1em;
+}
+.feelgood-button{
+    padding:2px 6px 2px 6px;
+    background-color: blue;
+}
+#foot{
+   position: relative;
+    top: 250px;
+    right:0px;
+}
+.country{
+    bottom:0;
+}
+.leftbot{
+    bottom:0;
+}
+.rightbot{
+    bottom:0;
+}
+/*this is the original code
 .buttons_div{
     font-family:arial,sans-serif;
     display:block;
 }
 #leftbutton{
-    position:relative;
+    position: relative;
     top:10px; left:150px;
     color:#5F6368;
     cursor:pointer;
@@ -178,7 +228,7 @@ a:active{
     text-align: center;
 }
 #rightbutton{
-    position: relative;
+    position:relative;
     top:10px; left:326px;
     color:#5F6368;
     cursor:pointer;
@@ -217,14 +267,4 @@ a:active{
     height: 36px;
     min-width: 54px;
     text-align: center;
-    cursor: pointer;
-}*/
-.country{
-    bottom:0;
-}
-.leftbot{
-    bottom:0;
-}
-.rightbot{
-    bottom:0;
-}
+    cursor: pointer;}*/
