@@ -110,7 +110,7 @@ a:active{
 }
 .search_div{
     position:relative;
-    top:20px;
+    top:25px;
     right:0px;
 }
 .searchbar{
@@ -164,7 +164,7 @@ a:active{
 #searchMic{
     margin-top: 10px;
     padding-right: 0px;
-    padding-left: 100px;
+    padding-left: 110px;
 }
 .micro{
     padding: 20 20;
@@ -179,7 +179,7 @@ a:active{
 }
 #center{
     position:absolute;
-    left:500px; top:10px;
+    top:10px;
 }
 #leftbutton{
     position:relative;
