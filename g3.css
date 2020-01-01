@@ -191,6 +191,8 @@ a:active{
 }
 .google-button{
     padding:1em;
+    position:relative;
+    left: 200px;
 }
 .feelgood-button{
     padding:2px 6px 2px 6px;
