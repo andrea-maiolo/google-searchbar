@@ -173,13 +173,13 @@ a:active{
 .buttons_div{
     position:relative;
     top:75px;
-    text-align: center;
-    /*left:480px; as soon as I try to center it with position the page get bigger.
-    how do I center this without changing the page?**/
+    
 }
 #center{
     position:absolute;
     top:10px;
+    /*text-align: center;/*left:480px; as soon as I try to center it with position the page get bigger.
+    how do I center this without changing the page?**/
 }
 #leftbutton{
     position:relative;
