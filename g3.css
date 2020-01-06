@@ -110,8 +110,7 @@ a:active{
 }
 .search_div{
     position:relative;
-    top:25px;
-    right:0px;
+    top:65px;
 }
 .searchbar{
     padding:0px 0px 0px 0px;
@@ -173,8 +172,10 @@ a:active{
 }
 .buttons_div{
     position:relative;
-    top:40px;
-    right:0px;
+    top:75px;
+    text-align: center;
+    /*left:480px; as soon as I try to center it with position the page get bigger.
+    how do I center this without changing the page?**/
 }
 #center{
     position:absolute;
@@ -182,7 +183,7 @@ a:active{
 }
 #leftbutton{
     position:relative;
-    /*left:500px;*/ 
+    
 }
 #rightbutton{
     position: relative;
@@ -195,14 +196,13 @@ a:active{
 }
 .feelgood-button{
     padding:2px 6px 2px 6px;
-    background-color: blue;
 }
 #foot{
    position: relative;
     top: 250px;
-    right:0px;
+    background-color: rgb(235, 235, 235);
 }
-.country{
+.country{ 
     bottom:0;
 }
 .leftbot{
@@ -268,4 +268,5 @@ a:active{
     height: 36px;
     min-width: 54px;
     text-align: center;
-    cursor: pointer;}*/
+    cursor: pointer;
+}*/
