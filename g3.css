@@ -2,7 +2,7 @@ html{
     -webkit-appearance:none;   
 }
 body, html {
-    font-size: small;}
+    font-size: 12px;}
 
 body {
     background: #fff;
@@ -23,18 +23,21 @@ body {
 
 }
 .about{
-    margin:10px 10px 10px;
+    margin:0px 0px 0px 15px;
     padding:0;
+    font-size:13px;
+    font-family:'arial', 'serif sans';
 }
 .store{
-    margin:10px 10px 10px;
+    margin:0px 0px 0px 15px;
     padding:0;
+    font-family:'arial', 'serif sans';
+    font-size:13px;
 }
 li{
     display: inline;
     text-align: center;
-    font-family:'arial', 'serif sans'  ;
-    font-size:13px;
+    
     text-decoration-color:black;
 }
 .topNavRight{
@@ -46,11 +49,15 @@ li{
 }
 .gmail{
     padding:0;
-    margin:10px 10px 10px;
+    margin:0px 0px 0px 15px;
+    font-size:13px;
+    font-family:'arial', 'serif sans';
 }
 .images{
     padding:0;
-    margin:10px 10px 10px;
+    font-size:13px;
+    font-family:'arial', 'serif sans';
+    margin:0px 0px 0px 15px;
 }
 .apps{        
     padding:0;
@@ -59,6 +66,7 @@ li{
 #sign_in{
     border-radius:100%;
     margin-top:5px;
+    
 }
 .bottomNavLeft{
     list-style-type:none;
