@@ -181,7 +181,7 @@ a:active{
 .div_country{
     margin-left: -320px;
     margin-right:700px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     color: #5F6368;
 }
 .country{ 
@@ -193,11 +193,14 @@ a:active{
 .navBarsBottom{
     position: relative;
     background-color: rgb(235, 235, 235);
+    border-top: 1px #e4e4e4 solid;
+    border-bottom: 1px #e4e4e4 solid;
     
 }
 .bottomNavLeft{
     list-style-type:none;
-    margin: 0;
+    margin-top:10px;
+    margin-bottom:10px;
     padding: 0;
     float:left;
     font-size: 13px;
@@ -206,7 +209,8 @@ a:active{
 .bottomNavRight{
     float: right;
     padding: 0;
-    margin: 0;
+    margin-top:10px;
+    margin-bottom:10px;
     font-size: 13px;
     list-style-type: none;
     font-family:Arial, Helvetica, sans-serif;
