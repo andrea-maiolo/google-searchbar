@@ -47,6 +47,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*this is not in the original reset file*/
 button{
 	background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
@@ -63,3 +64,4 @@ button{
     cursor: pointer;
     user-select: none;
 }
+
