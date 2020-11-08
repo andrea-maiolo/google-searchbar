@@ -132,9 +132,13 @@ a:active{
     flex:8;
     width: 500px;
     height: 24px;
+    display:flex;
 }
 #searchText {
+    flex:1;
     border: none;
+    width:366px;
+    height: 40px;
     color: rgba(0,0,0,.87);
     outline: none;
     font: 16px arial, sans-serif;
@@ -155,7 +159,7 @@ a:active{
 }
 .buttons_div{
     position:relative;
-    top:75px;   
+    top:18px;   
 }
 button{
     border-radius: 4px;
@@ -170,27 +174,25 @@ button{
     cursor: pointer;
     user-select: none;
 }
-#google-button{
-    background-color: #f8f9fa;
-    border: 1px solid #f8f9fa;
-    color: #3c4043;
+.buttons{
+        background-color: #f8f9fa;
+        border: 1px solid #f8f9fa;
+        color: #3c4043;
 }
-#feelgood-button{
-    background-color: #f8f9fa;
-    border: 1px solid #f8f9fa;
-    color: #3c4043;
+.buttons:hover{
+    border: 2px solid #e9ecef;
 }
 #foot{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    position: relative;;
+    top: 190px;
     background-color: #F2F2F3;
     border-top: 1px #e4e4e4 solid;
-    padding: 10px 10px;
+    display:flex;
+    flex-direction: column;
 }
 .div_country{
-    margin-bottom:15px;
+    flex:1;
+    margin:10px 0px 10px 0px ;
     color: #5F6368;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 15px;
@@ -199,6 +201,7 @@ button{
     margin-right:1148px;
 }
 .navBarsBottom{
+    flex:1;
     position: relative;
     background-color: rgb(235, 235, 235);
     border-top: 1px #e4e4e4 solid;
@@ -207,9 +210,7 @@ button{
 }
 .bottomNavLeft{
     list-style-type:none;
-    margin-top:10px;
-    margin-bottom:10px;
-    padding: 0;
+    margin:10px 0px 10px 0px;
     float:left;
     font-size: 13px;
     font-family:Arial, Helvetica, sans-serif;
@@ -224,6 +225,7 @@ button{
     font-family:Arial, Helvetica, sans-serif;
 }
 #Advertising{
+    color:#5F6368;
     margin:5px 10px;
     padding:5px 5px 5px 5px;
 
