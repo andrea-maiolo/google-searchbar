@@ -218,39 +218,37 @@ button{
 .bottomNavLeft{
     list-style-type:none;
     float:left;
-    font-size: 13px;
     font-family:Arial, Helvetica, sans-serif;
+    margin:12px 0px 0px 14px;
 }
 .bottomNavRight{
     float: right;
-    font-size: 13px;
     list-style-type: none;
     font-family:Arial, Helvetica, sans-serif;
+    margin:12px 14px 0px 0px;
 }
 #Advertising{
-    color:#5F6368;
+    font-size:14px;
     margin:5px 10px;
-    padding:5px 5px 5px 5px;
-
 }
 #Business{
+    font-size:14px;
     margin:5px 10px;
-    padding:5px 5px 5px 5px;
 }
 #howsearchworks{
+    font-size:14px;
     margin:5px 10px;
-    padding:5px 5px 5px 5px;
 }        
 #Privacy{
+    font-size:14px;
     margin:5px 10px;
-    padding:5px 5px 5px 5px;
 }
 #Terms{
+    font-size:14px;
     margin:5px 10px;
-    padding:5px 5px 5px 5px;
 }
 #Settings{
+    font-size:14px;
     margin:5px 10px;
-    padding:5px 5px 5px 5px;
 }
             
